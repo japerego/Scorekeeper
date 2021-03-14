@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             menu.findItem(R.id.night_mode).setTitle(R.string.night_mode);
         }
+        getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
 
